@@ -285,6 +285,10 @@ class PhilipsGenericFan(PhilipsEntity, FanEntity):
 class PhilipsGenericCoAPFanBase(PhilipsGenericFan):
     """Class as basis to manage a generic Philips CoAP fan."""
 
+    # https://developers.home-assistant.io/blog/2024/07/19/fan-fanentityfeatures-turn-on_off/
+    # TODO: remove once HA 2025.2 is released
+    _enable_turn_on_off_backwards_compatibility = False
+
     AVAILABLE_PRESET_MODES = {}
     REPLACE_PRESET = None
     AVAILABLE_SPEEDS = {}
@@ -383,7 +387,9 @@ class PhilipsGenericCoAPFanBase(PhilipsGenericFan):
     @property
     def supported_features(self) -> int:
         """Return the supported features."""
-        features = FanEntityFeature.PRESET_MODE | FanEntityFeature.TURN_OFF | FanEntityFeature.TURN_ON
+        features = FanEntityFeature.PRESET_MODE
+        if hasattr(FanEntityFeature, "TURN_ON"):  # TODO: remove check once HA 2025.2 is released
+            features |= FanEntityFeature.TURN_ON | FanEntityFeature.TURN_OFF
         if self._speeds:
             features |= FanEntityFeature.SET_SPEED
         if self.KEY_OSCILLATION is not None:
