@@ -29,7 +29,7 @@ Philips has recently introduced a proper API to remote control the devices. Howe
  - Original reverse engineering done by @rgerganov at https://github.com/rgerganov/py-air-control
  - The base of the current integration has been done by @betaboon at https://github.com/betaboon/philips-airpurifier-coap but apparently this is not maintained anymore.
  - The rework has been done by @Denaun at https://github.com/Denaun/philips-airpurifier-coap
- - Obviously, many other people contributed, notably @mhetzi, @Kraineff and @shexbeer
+ - Obviously, many other people contributed, notably @mhetzi, @Kraineff, @shexbeer, and @kongo09
 
 ## Install
 
