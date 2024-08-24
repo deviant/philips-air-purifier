@@ -21,10 +21,10 @@
       "registered_devices": true
     }
   ],
-  "documentation": "https://github.com/deviant/philips-airpurifier-coap",
+  "documentation": "https://github.com/deviant/philips-air-purifier",
   "integration_type": "device",
   "iot_class": "local_push",
-  "issue_tracker": "https://github.com/deviant/philips-airpurifier-coap/issues",
+  "issue_tracker": "https://github.com/deviant/philips-air-purifier/issues",
   "requirements": ["aioairctrl==0.2.5", "getmac==0.9.4"],
   "version": "0.18.9"
 }
