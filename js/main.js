@@ -1,4 +1,4 @@
-const DOMAIN = "philips_airpurifier_coap";
+const DOMAIN = "philips_air_purifier";
 
 const ICON_STORE = {};
 

@@ -30,7 +30,7 @@ from .model import (
     SwitchDescription,
 )
 
-DOMAIN = "philips_airpurifier_coap"
+DOMAIN = "philips_air_purifier"
 
 DATA_KEY_CLIENT = "client"
 DATA_KEY_COORDINATOR = "coordinator"

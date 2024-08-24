@@ -133,7 +133,7 @@ To aquire debug-logs, add the following to your `configuration.yaml`:
 ```yaml
 logger:
   logs:
-    custom_components.philips_airpurifier_coap: debug
+    custom_components.philips_air_purifier: debug
     coap: debug
     aioairctrl: debug
 ```
@@ -180,39 +180,39 @@ The integration also provides the original Philips icons for your use in the fro
 
 | icon                                                                                           | name                    |
 |------------------------------------------------------------------------------------------------|-------------------------|
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/power_button.svg)            | power_button            |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/child_lock_button.svg)       | child_lock_button       |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/auto_mode_button.svg)        | auto_mode_button        |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/fan_speed_button.svg)        | fan_speed_button        |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/humidity_button.svg)         | humidity_button         |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/light_dimming_button.svg)    | light_dimming_button    |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/two_in_one_mode_button.svg)  | two_in_one_mode_button  |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/timer_reset_button.svg)      | timer_reset_button      |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/sleep_mode.svg)              | sleep_mode              |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/auto_mode.svg)               | auto_mode               |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/speed_1.svg)                 | speed_1                 |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/speed_2.svg)                 | speed_2                 |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/speed_3.svg)                 | speed_3                 |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/allergen_mode.svg)           | allergen_mode           |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/purification_only_mode.svg)  | purification_only_mode  |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/two_in_one_mode.svg)         | two_in_one_mode         |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/bacteria_virus_mode.svg)     | bacteria_virus_mode     |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/nanoprotect_filter.svg)      | nanoprotect_filter      |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/filter_replacement.svg)      | filter_replacement      |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/water_refill.svg)            | water_refill            |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/prefilter_cleaning.svg)      | prefilter_clearning     |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/prefilter_wick_cleaning.svg) | prefilter_wick_cleaning |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/pm25.svg)                    | pm25                    |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/iai.svg)                     | iai                     |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/wifi.svg)                    | wifi                    |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/reset.svg)                   | reset                   |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/circulate.svg)               | circulate               |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/clean.svg)                   | clean                   |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/mode.svg)                    | mode                    |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/pm25b.svg)                   | pm25b                   |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/rotate.svg)                  | rotate                  |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/oscillate.svg)               | oscillate               |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/heating.svg)                 | heating                 |
-| ![Preview](./custom_components/philips_airpurifier_coap/icons/pap/gas.svg)                     | gas                     |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/power_button.svg)            | power_button            |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/child_lock_button.svg)       | child_lock_button       |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/auto_mode_button.svg)        | auto_mode_button        |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/fan_speed_button.svg)        | fan_speed_button        |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/humidity_button.svg)         | humidity_button         |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/light_dimming_button.svg)    | light_dimming_button    |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/two_in_one_mode_button.svg)  | two_in_one_mode_button  |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/timer_reset_button.svg)      | timer_reset_button      |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/sleep_mode.svg)              | sleep_mode              |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/auto_mode.svg)               | auto_mode               |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/speed_1.svg)                 | speed_1                 |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/speed_2.svg)                 | speed_2                 |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/speed_3.svg)                 | speed_3                 |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/allergen_mode.svg)           | allergen_mode           |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/purification_only_mode.svg)  | purification_only_mode  |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/two_in_one_mode.svg)         | two_in_one_mode         |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/bacteria_virus_mode.svg)     | bacteria_virus_mode     |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/nanoprotect_filter.svg)      | nanoprotect_filter      |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/filter_replacement.svg)      | filter_replacement      |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/water_refill.svg)            | water_refill            |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/prefilter_cleaning.svg)      | prefilter_clearning     |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/prefilter_wick_cleaning.svg) | prefilter_wick_cleaning |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/pm25.svg)                    | pm25                    |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/iai.svg)                     | iai                     |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/wifi.svg)                    | wifi                    |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/reset.svg)                   | reset                   |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/circulate.svg)               | circulate               |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/clean.svg)                   | clean                   |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/mode.svg)                    | mode                    |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/pm25b.svg)                   | pm25b                   |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/rotate.svg)                  | rotate                  |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/oscillate.svg)               | oscillate               |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/heating.svg)                 | heating                 |
+| ![Preview](./custom_components/philips_air_purifier/icons/pap/gas.svg)                     | gas                     |
 
 Note: you might have to clear your browser cache after installation to see the icons.

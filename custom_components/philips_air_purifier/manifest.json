@@ -1,5 +1,5 @@
 {
-  "domain": "philips_airpurifier_coap",
+  "domain": "philips_air_purifier",
   "name": "Philips Air Purifier",
   "codeowners": ["@deviant"],
   "config_flow": true,
