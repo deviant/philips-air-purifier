@@ -1,4 +1,4 @@
-"""Constants for Philips AirPurifier integration."""
+"""Constants for Philips Air Purifier integration."""
 from __future__ import annotations
 
 from enum import StrEnum
@@ -36,7 +36,7 @@ DATA_KEY_CLIENT = "client"
 DATA_KEY_COORDINATOR = "coordinator"
 DATA_KEY_FAN = "fan"
 
-DEFAULT_NAME = "Philips AirPurifier"
+DEFAULT_NAME = "Philips Air Purifier"
 
 
 class ICON(StrEnum):

@@ -72,7 +72,7 @@ async def async_setup_entry(
 
 
 class PhilipsLight(PhilipsEntity, LightEntity):
-    """Define a Philips AirPurifier light."""
+    """Define a Philips Air Purifier light."""
 
     _attr_is_on: bool | None = False
 

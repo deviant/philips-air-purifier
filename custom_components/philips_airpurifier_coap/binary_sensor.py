@@ -66,7 +66,7 @@ async def async_setup_entry(  # noqa: D103
 
 
 class PhilipsBinarySensor(PhilipsEntity, BinarySensorEntity):
-    """Define a Philips AirPurifier binary_sensor."""
+    """Define a Philips Air Purifier binary_sensor."""
 
     def __init__(  # noqa: D107
         self, coordinator: Coordinator, name: str, model: str, kind: str

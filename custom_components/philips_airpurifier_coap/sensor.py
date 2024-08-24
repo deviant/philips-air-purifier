@@ -84,7 +84,7 @@ async def async_setup_entry(  # noqa: D103
 
 
 class PhilipsSensor(PhilipsEntity, SensorEntity):
-    """Define a Philips AirPurifier sensor."""
+    """Define a Philips Air Purifier sensor."""
 
     def __init__(  # noqa: D107
         self, coordinator: Coordinator, name: str, model: str, kind: str
@@ -147,7 +147,7 @@ class PhilipsSensor(PhilipsEntity, SensorEntity):
 
 
 class PhilipsFilterSensor(PhilipsEntity, SensorEntity):
-    """Define a Philips AirPurifier filter sensor."""
+    """Define a Philips Air Purifier filter sensor."""
 
     def __init__(  # noqa: D107
         self, coordinator: Coordinator, name: str, model: str, kind: str

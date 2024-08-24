@@ -1,4 +1,4 @@
-"""The Philips AirPurifier component."""
+"""The Philips Air Purifier component."""
 import asyncio
 import ipaddress
 import logging
@@ -33,7 +33,7 @@ def host_valid(host: str) -> bool:
 
 
 class PhilipsAirPurifierConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
-    """Handle config flow for Philips AirPurifier."""
+    """Handle config flow for Philips Air Purifier."""
 
     VERSION = 1
 
@@ -58,7 +58,7 @@ class PhilipsAirPurifierConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
         self._host = discovery_info.ip
         _LOGGER.debug("trying to configure host: %s", self._host)
 
-        # let's try and connect to an AirPurifier
+        # let's try and connect to an Air Purifier
         try:
             client = None
             timeout = TimeoutManager()
@@ -82,7 +82,7 @@ class PhilipsAirPurifierConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
         except asyncio.TimeoutError:
             _LOGGER.warning(
-                r"Timeout, host %s looks like a Philips AirPurifier but doesn't answer, aborting",
+                r"Timeout, host %s looks like a Philips Air Purifier but doesn't answer, aborting",
                 self._host,
             )
             return self.async_abort(reason="model_unsupported")
@@ -206,7 +206,7 @@ class PhilipsAirPurifierConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 self._host = user_input[CONF_HOST]
                 _LOGGER.debug("trying to configure host: %s", self._host)
 
-                # let's try and connect to an AirPurifier
+                # let's try and connect to an Air Purifier
                 try:
                     client = None
                     timeout = TimeoutManager()

@@ -71,7 +71,7 @@ async def async_setup_entry(
 
 
 class PhilipsSwitch(PhilipsEntity, SwitchEntity):
-    """Define a Philips AirPurifier switch."""
+    """Define a Philips Air Purifier switch."""
 
     _attr_is_on: bool | None = False
 

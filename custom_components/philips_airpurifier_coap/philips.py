@@ -1,4 +1,4 @@
-"""Collection of classes to manage Philips AirPurifier devices."""
+"""Collection of classes to manage Philips Air Purifier devices."""
 from __future__ import annotations
 
 import asyncio

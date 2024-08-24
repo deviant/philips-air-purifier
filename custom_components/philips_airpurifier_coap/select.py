@@ -69,7 +69,7 @@ async def async_setup_entry(
 
 
 class PhilipsSelect(PhilipsEntity, SelectEntity):
-    """Define a Philips AirPurifier select."""
+    """Define a Philips Air Purifier select."""
 
     _attr_is_on: bool | None = False
 

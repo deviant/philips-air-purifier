@@ -1,4 +1,4 @@
-"""Type definitions for Philips AirPurifier integration."""
+"""Type definitions for Philips Air Purifier integration."""
 from __future__ import annotations
 
 from collections.abc import Callable

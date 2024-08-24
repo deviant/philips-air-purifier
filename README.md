@@ -40,7 +40,7 @@ Philips has recently introduced a proper API to remote control the devices. Howe
 * The integration attempts to autodiscover your purifiers. Autodiscovery is based on the MAC address and original hostname of the devices. Home Assistant will notify you, if that is successful. 
 * Alternatively, go to Configuration -> Devices & Services
 * Click `Add Integration`
-* Search for `Philips AirPurifier` and select it
+* Search for `Philips Air Purifier` and select it
 * Enter the hostname / IP address of your device
 * The model type is detected automatically. You get a warning in the log, if it is not supported.
 

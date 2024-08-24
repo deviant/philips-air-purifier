@@ -1,4 +1,4 @@
-"""Support for Philips AirPurifier with CoAP."""
+"""Support for Philips Air Purifier with CoAP."""
 from __future__ import annotations
 
 import asyncio
@@ -58,7 +58,7 @@ class ListingView(HomeAssistantView):
 
 
 async def async_setup(hass: HomeAssistant, config) -> bool:
-    """Set up the icons for the Philips AirPurifier integration."""
+    """Set up the icons for the Philips Air Purifier integration."""
     _LOGGER.debug("async_setup called")
 
     hass.http.register_static_path(LOADER_URL, hass.config.path(LOADER_PATH), True)
@@ -122,7 +122,7 @@ async def async_get_mac_address_from_host(hass: HomeAssistant, host: str) -> str
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
-    """Set up the Philips AirPurifier integration."""
+    """Set up the Philips Air Purifier integration."""
     host = entry.data[CONF_HOST]
     mac = await async_get_mac_address_from_host(hass, host)
 

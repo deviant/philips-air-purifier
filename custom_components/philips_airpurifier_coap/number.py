@@ -69,7 +69,7 @@ async def async_setup_entry(
 
 
 class PhilipsNumber(PhilipsEntity, NumberEntity):
-    """Define a Philips AirPurifier number."""
+    """Define a Philips Air Purifier number."""
 
     def __init__(  # noqa: D107
         self, coordinator: Coordinator, name: str, model: str, number: str
